@@ -1,48 +1,7 @@
 site_name: Контур.Экстерн для 1С
 nav:
   - Модуль:
-      - Описание: "index.md"
-      - Вопросы: "faq.md"
-      - Расширение: "extension.md"
-      - История версий: "history.md"
-  - Начать пользоваться: "download.md"
-  - Пользователям:
-      - Пользователям: "users/index.md"
-      - "1С:Бухгалтерия, ЗУП":
-          - Настроить: "users/features-bp3/setup.md"
-          - Отправить:
-              - Перед отправкой: "features/Авторизация.md"
-              - Отчет в ПФР: "features/Отправка в ПФР.md"
-              - Отчет в Росстат: "features/Отправка в Росстат.md"
-              - Отчет в ФНС: "features/Отправка в ФНС.md"
-              - Отчет в ФСС: "features/Отправка в ФСС.md"
-              - Массовая отправка отчетов: "features/Массовая отправка.md"
-              - Отправка извещения: "features/Отправка извещения.md"
-              - Отправка квитанции: "features/Отправка квитанции.md"
-              - Сверка с ФНС: "features/Сверка с ФНС.md"
-              - Письмо в ФНС: "features/Отправка писем.md"
-          - Получить:
-              - Получение требований: "features/Получение требований.md"
-              - Получение писем: "features/Получение входящих писем.md"
-          - Напечатать:
-              - Печать отчетов: "features/Печать.md"
-              - Печать требований: "features/Печать и сохранение требования.md"
-          - Пособия ФСС, СЭДО: "users/features-bp3/sedo.md"
-          - Сервис:
-              - Обновление модуля: "features/Обновления.md"
-              - Актуальность данных: "features/Установить дату последнего сообщения от контролирующего органа.md"
-              - Информация для тех. поддержки: "features/Сохранить информацию о неисправности.md"
-              - Права пользователей: "users/features-bp3/access-setup.md"
-          - Замена сертификата: "users/Замена сертификата.md"
-      - "1С:Документооборот":
-          - Настроить: "users/features-do2/setup.md"
-          - Входящие: "users/features-do2/incoming.md"
-  - Разработчикам:
-      - API: "developers/api.md"
-      - SDK:
-          - Установить: "developers/sdk/installation.md"
-          - Быстрый старт: "developers/sdk/start.md"
-          - Примеры: "developers/sdk/examples.md"
+      - Описание: "index.rst"
 theme:
   font:
     code: Roboto
@@ -104,5 +63,3 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
-extra_javascript:
-  - script.js
